@@ -1,12 +1,22 @@
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
+
 public class Main {
     public static void main (String[] args)
     {
-        Scanner s= new Scanner(System.in);
-
         CalculadoraGeneral calcu = new Calculadora();
-        String res = "";
-        res = s.nextLine();
-        System.out.println(calcu.Calculo(res));
+        try {
+            File obj = new File("C:\\Users\\diego\\OneDrive\\Documents\\U\\Tercer semestre\\Algoritmos\\Calculadora\\Texto.txt");
+            Scanner myReader = new Scanner(obj);
+            while (myReader.hasNextLine()) {
+                String data = myReader.nextLine();
+                System.out.println(calcu.Calculo(data));
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("Archivo no encontrado.");
+            e.printStackTrace();
+        }
     }
 }

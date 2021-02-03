@@ -16,7 +16,9 @@ public class StackVector<E> implements Stack<E> {
 
     @Override
     public E pop() {
-        return almacenamiento.remove(size()-1);
+        E ad = almacenamiento.get(size()-1);
+        almacenamiento.remove(size()-1);
+        return ad;
     }
 
     @Override
