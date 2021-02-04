@@ -2,7 +2,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+/** Metodo principal*/
 public class Main {
+    /** Metodo principal*/
     public static void main (String[] args)
     {
         CalculadoraGeneral calcu = new Calculadora();

@@ -4,6 +4,7 @@ public class StackVector<E> implements Stack<E> {
 
     Vector<E> almacenamiento;
 
+    /** Metodo constructor*/
     public StackVector()
     {
         almacenamiento = new Vector<E>();
