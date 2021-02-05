@@ -9,7 +9,7 @@ public class Main {
     {
         CalculadoraGeneral calcu = new Calculadora();
         try {
-            File obj = new File("C:\\Users\\diego\\OneDrive\\Documents\\U\\Tercer semestre\\Algoritmos\\Calculadora\\Texto.txt");
+            File obj = new File("datos.txt");
             Scanner myReader = new Scanner(obj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();

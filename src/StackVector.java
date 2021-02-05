@@ -2,7 +2,7 @@ import java.util.Vector;
 
 public class StackVector<E> implements Stack<E> {
 
-    Vector<E> almacenamiento;
+    public Vector<E> almacenamiento;
 
     /** Metodo constructor*/
     public StackVector()
