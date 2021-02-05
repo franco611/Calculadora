@@ -1,3 +1,11 @@
+/******************************************************************
+ Calculadora.java
+ Autor: Diego Franco
+
+ Clase que implementa la interfaz de calculadorageneral, la cual
+ recibe del main las operaciones que debe de ejecutar ytulizando
+ el stack.
+ ******************************************************************/
 public class Calculadora implements CalculadoraGeneral{
 
     StackVector<Integer> alm;

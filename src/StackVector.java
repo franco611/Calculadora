@@ -1,3 +1,10 @@
+/******************************************************************
+ StackVector.java
+ Autor: Diego Franco
+
+ Clase que implementa la interfaz de Stack que se utiliza para almacenar
+ los datos de las operaciones necesarias por la calculadora.
+ ******************************************************************/
 import java.util.Vector;
 
 public class StackVector<E> implements Stack<E> {

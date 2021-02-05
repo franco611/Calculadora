@@ -1,3 +1,10 @@
+/******************************************************************
+ Stack.java
+ Autor: Diego Franco
+
+ Interfaz que le otorga todas las caracteristicas y metodos a un
+ Stack.
+ ******************************************************************/
 public interface Stack<E> {
     /** Agrega el elementeo a la lista*/
     public void push(E item);

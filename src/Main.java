@@ -1,3 +1,11 @@
+/******************************************************************
+ Main.java
+ Autor: Diego Franco
+
+ Clase main que lee el archivo de texto en donde se indican las
+ operaciones y se las indica a la calculadora par que las pueda
+ realizar.
+ ******************************************************************/
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
